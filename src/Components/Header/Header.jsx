@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     const links = <>
-    <li><NavLink to={'/'}>Home</NavLink></li>
-    <li><NavLink to={'/jobs'}>Jobs</NavLink></li>
-    <li><NavLink to={'/applied'}>Applied Jobs</NavLink></li>
-    <li><NavLink to={'/statistics'}>Statistics</NavLink></li>
-    <li><NavLink to={'/blogs'}>Blogs</NavLink></li>
+    <li className="text-lg manrope-semibold text-[#9873FF]"><NavLink to={'/'}>Home</NavLink></li>
+    <li className="text-lg manrope-semibold  text-[#9873FF]"><NavLink to={'/jobs'}>Jobs</NavLink></li>
+    <li className="text-lg manrope-semibold  text-[#9873FF]"><NavLink to={'/applied'}>Applied Jobs</NavLink></li>
+    <li className="text-lg manrope-semibold  text-[#9873FF]"><NavLink to={'/statistics'}>Statistics</NavLink></li>
+    <li className="text-lg manrope-semibold  text-[#9873FF]"><NavLink to={'/blogs'}>Blogs</NavLink></li>
     
     </>
     return (
@@ -35,7 +35,7 @@ const Header = () => {
         {links}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Career Hub</a>
+    <a className="btn btn-ghost text-3xl manrope-extrabold">Career Hub</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -43,7 +43,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Apply Now</a>
+    <a className="btn text-xl manrope-extrabold text-white bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">Apply Now</a>
   </div>
 </div>
         </div>
